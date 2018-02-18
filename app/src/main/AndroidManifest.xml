@@ -20,7 +20,8 @@
         <activity android:name=".TakeAway" />
         <activity android:name=".DineIn" />
         <activity android:name=".DaftarMenu" />
-        <activity android:name=".DetailMenu"></activity>
+        <activity android:name=".DetailMenu" />
+        <activity android:name=".Adapter"></activity>
     </application>
 
 </manifest>

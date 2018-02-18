@@ -4,13 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.user.hansamustada_1202144142_modul2.DetailMenu">
-
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="Detail Menu"/>
+    tools:context="com.example.user.hansamustada_1202144142_modul2.Adapter">
 
 </android.support.constraint.ConstraintLayout>

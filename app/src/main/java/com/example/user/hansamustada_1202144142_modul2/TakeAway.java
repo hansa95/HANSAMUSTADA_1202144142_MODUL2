@@ -16,9 +16,11 @@ public class TakeAway extends AppCompatActivity {
         Toast.makeText(getApplicationContext(),"Take Away",Toast.LENGTH_LONG).show();
     }
 
-    //Todo: Bikin intent pas mencet tombol pesan
+    //Todo: Bikin intent pas mencet tombol pesan pindah ke DaftarMenu Activity
     public void takePesan(View view) {
         Intent intentpesan = new Intent(TakeAway.this, DaftarMenu.class);
         startActivity(intentpesan);
     }
+
+
 }

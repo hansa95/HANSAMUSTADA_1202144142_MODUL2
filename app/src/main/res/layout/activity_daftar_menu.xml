@@ -5,11 +5,18 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/recyclerview"
+    <TextView
+
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_gravity="center">
-        
-    </android.support.v7.widget.RecyclerView>
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="Ini Harusnya RecycleView" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Detail"
+        android:onClick="detail"/>
+
 </android.support.design.widget.CoordinatorLayout>
